@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.board {
+  width: 500px;
+  height: 500px;
+  border: solid .5px black;
+  display: grid;
+  grid-template-rows: repeat(20, 25px);
+  grid-template-columns: repeat(20, 25px)
+
+}
+
+.cell {
+  width: 25px;
+  height: 25px;
+  border: solid .5px black;
+}
+
+.populated {
+  background-color: black;
+}
